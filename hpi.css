@@ -1,0 +1,136 @@
+div,ul,li,p,img{
+   margin:0px;
+}
+#body{
+	margin:50px;
+	padding:0px;
+}
+#top-container
+{
+	height:80px;
+	background-color:#011623;
+	margin-top:-8px;
+	margin-left:-9px;
+	margin-right:-9px;
+}
+#lo
+{
+	width:55%;
+	float:left;
+	height:80px;
+}
+#logo
+{
+	width:55%;
+	height:60px;
+	margin-left:8px;
+	font-size:30px;
+	color:white;
+	margin-top:10px;
+}
+#search{
+	width:15%;
+	margin-left:300px;
+	padding-top:10px;
+}
+input[type=text]{
+    width: 230px;
+    height:30px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 38px;
+    font-size: 14px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 238px 6px; 
+    background-repeat: no-repeat;
+    background-size:15px;
+    padding: 11px 20px 12px 20px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+#tabs
+{
+	width:45%;
+	height:100%;
+	float:right;
+}
+#tab-left
+{
+	width:55%;
+	height:100%;
+	float:left;
+	background-color:#010a0f;
+}
+#tab-right
+{
+	width:45%;
+	height:100%;
+	float:right;
+	background-color:red;
+}
+#links ul
+{
+    list-style-type:none;
+}
+#links ul li
+{
+   float:left;
+}
+#links ul li a
+{
+   display:block;
+   height:30px;
+   font-size:17px;
+   color:#4db6ac;
+   text-align:center;
+   text-decoration:none;
+   float:right;
+   margin:25px 10px;
+   line-height:30px;
+   padding:1px 1px;
+   background-color:green;
+}
+
+#left-content
+{
+	width:70%;
+	float:left;
+	background-color:red;
+}
+
+#right-content
+{
+	width:30%;
+	float:right;
+	background-color:green;
+}
+
+.tabular {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tabular button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tabular button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tabular button.active {
+    background-color: #ccc;
+}

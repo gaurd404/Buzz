@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<style>
+.mtab_content {
+    display: none;
+}
+</style>
+<body>
+
+<div id="mtabs">
+    <ul>
+        <li><a href="#tab1" rel="tab1">Tab 1</a></li>
+        <li><a href="#tab2" rel="tab2">Tab 2</a></li>
+        <li><a href="#tab3" rel="tab3">Tab 3</a></li>
+        <li><a href="#tab4" rel="tab4">Tab 4</a></li>
+    </ul>
+</div>
+
+<div id="mtabs_content_container">
+    <div id="tab1" class="mtab_content">
+      <p><a href="#mtabs_wrapper#mtabs_content_container#tab2">Take me to Tab 2</a></p>
+    </div>
+    <div id="tab2" class="mtab_content">
+        <p>Tab content 2</p>
+    </div>
+    <div id="tab3" class="mtab_content">
+        <p>Tab content 3</p>
+    </div>
+<div id="tab4" class="mtab_content" style="display: block;">
+  <p>Tab content 4</p>
+    </div>
+
+</div>
+<script>
+$(document).ready(function(){
+    //  When user clicks on tab, this code will be executed
+    $("#mtabs li").click(function() {
+        //  First remove class "active" from currently active tab
+        /*$("#mtabs li").removeClass('active');
+
+        //  Now add class "active" to the selected/clicked tab
+			$(this).addClass("active");*/
+
+        //  Hide all tab content
+        $(".mtab_content").hide();
+
+        //  Here we get the href value of the selected tab
+        var selected_tab = $(this).find("a").attr("href");
+
+        //  Show the selected tab content
+        $(selected_tab).fadeIn();
+
+        //  At the end, we add return false so that the click on the link is not executed
+        return false;
+    });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+div,ul,li,p,img{
+   margin:0px;
+}
+#body{
+	margin:0px;
+	padding:0px;
+}
+#top-container
+{
+	height:80px;
+	background-color:white;
+    padding-left:40px;
+	margin:0 0;
+}
+#logo
+{
+	width:10%;
+	height:40px;
+	float:left;
+	font-size:30px;
+	color:white;
+	margin-top:20px;
+}
+#tabs
+{
+	width:70%;
+	height:100%;
+	float:right;
+}
+#tab-left
+{
+	width:60%;
+	height:100%;
+	float:left;
+	background-color:red;
+}
+#tab-right
+{
+	width:40%;
+	height:100%;
+	float:right;
+}
+#links ul
+{
+    list-style-type:none;
+}
+#links ul li
+{
+   float:left;
+}
+#links ul li a
+{
+   display:block;
+   height:30px;
+   font-size:20px;
+   color:white;
+   text-align:center;
+   text-decoration:none;
+   float:right;
+   margin:25px 10px;
+   line-height:30px;
+   padding:2px 2px;
+}
+
+#left-content
+{
+	width:20%;
+	float:left;
+}
+
+#right-content
+{
+	width:40%;
+	float:right;
+}

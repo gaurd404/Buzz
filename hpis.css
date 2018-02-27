@@ -1,0 +1,199 @@
+div,ul,li,p,img{
+   margin:0px;
+}
+#body{
+	margin:50px;
+	padding:0px;
+}
+#top-container
+{
+	height:80px;
+	background-color:#011623;
+	margin-top:-8px;
+	margin-left:-9px;
+	margin-right:-9px;
+}
+#lo
+{
+	width:55%;
+	float:left;
+	height:80px;
+}
+#logo
+{
+	width:55%;
+	height:60px;
+	margin-left:25px;
+	font-size:30px;
+	color:white;
+	margin-top:10px;
+}
+#search{
+	width:15%;
+	margin-left:300px;
+	padding-top:10px;
+}
+input[type=text]{
+    width: 230px;
+    height:30px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 38px;
+    font-size: 14px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 238px 6px; 
+    background-repeat: no-repeat;
+    background-size:15px;
+    padding: 11px 20px 12px 20px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+#tabs
+{
+	width:45%;
+	height:100%;
+	float:right;
+}
+#tab-left
+{
+	width:55%;
+	height:100%;
+	float:left;
+	background-color:#010a0f;
+}
+#tab-right
+{
+	width:45%;
+	height:100%;
+	float:right;
+}
+#links ul
+{
+    list-style-type:none;
+}
+#links ul li
+{
+   float:left;
+}
+#links ul li a
+{
+   display:block;
+   height:30px;
+   font-size:17px;
+   color:#4db6ac;
+   text-align:center;
+   text-decoration:none;
+   float:right;
+   margin:25px 10px;
+   line-height:30px;
+   padding:1px 1px;
+}
+
+#left-content
+{
+	width:20%;
+	float:left;
+	margin-left:-8px;
+}
+
+#right-content
+{
+	width:80%;
+	float:right;
+	margin-right:-8px;
+	border-left:1px solid #757575;
+}
+
+
+.tabu {
+	font-size:22px;
+	padding-left:15px;
+	padding-top:28px;
+	height:60px;
+	
+}
+.tabular {
+    overflow: hidden;
+}
+
+/* Style the buttons inside the tab */
+.tabular button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tabular button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tabular button.active {
+    background-color: #ccc;
+}
+
+.tabu-1{
+	font-size:14px;
+	padding-left:15px;
+	padding-top:8px;
+	height:280px;
+}
+.col-sm-7
+{
+	padding-left:250px;
+}
+#circle {
+    width: 50px;
+    height: 50px;
+	border:1px solid #bdbdbd;
+    border-radius: 50%;
+}
+
+#circle-content
+{
+    position:relative;
+	padding-top:13px;
+	padding-left:13px;
+}
+
+#vline {
+    border-left: 1px solid #757575;
+    height: 500px;
+}
+
+.left-sidebar{
+	margin-top:30px;
+	border-bottom: 1px solid #dadfea;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(218, 223, 234);
+    padding-left: 20px;
+}
+.left-sidebar-menus{
+	padding-bottom: 15px; 
+}
+
+.glyphicon:before {
+  	margin-right: 5px;
+}
+.fa:before{
+	margin-right: 5px;
+}
+.left-menu-details{
+    list-style: none; 
+    padding: 15px;
+    margin: 10px;
+}
+.left-menu-details li { 
+    padding-left: 10px; 
+    padding-bottom: 15px;
+}
+a.options:hover, a.options:active {background: Gainsboro;}
